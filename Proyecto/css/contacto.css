@@ -222,3 +222,28 @@
     height: 100%;
     border: 0;
 }
+
+
+
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #d4d4d4;
+    text-decoration: underline;
+  }
+  
+  footer .fab {
+    font-size: 1.5rem;
+  }
+  
+  footer p {
+    margin-bottom: 5px;
+  }
