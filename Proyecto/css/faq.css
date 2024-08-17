@@ -64,6 +64,12 @@
     font-weight: bold; /* Hacer que el texto sea negrita */
 }
 
+.progress-bar {
+    transition: width 2s ease-in-out;
+}
+
+
+
 
 .accordion-button {
     background-color: #fff; 
