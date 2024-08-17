@@ -165,7 +165,7 @@
     resize: vertical; /
 }
 
-/* Estilo del botón de envío */
+
 #btnSend {
     background-color: #a40018;
     color: #fff;
@@ -175,7 +175,7 @@
     font-size: 1.1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 300px;
+    width: 100%;
     text-align: center;
     display: inline-block; 
 
@@ -201,7 +201,7 @@
   .map-container {
     width: 100%;
     height: 0;
-    padding-bottom: 56.25%; /* Relación de aspecto de 16:9 */
+    padding-bottom: 56.25%; 
     position: relative;
 }
   

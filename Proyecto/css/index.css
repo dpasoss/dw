@@ -168,7 +168,7 @@
     background-color: #000; 
     color: #fff; 
     padding: 3px; 
-    height: 1200px;
+    
   }
   
   #servicios h2 {
@@ -186,7 +186,7 @@
   }
 
   .card-body {
-    padding: 7px; /* Reduce el padding del cuerpo de la tarjeta */
+    padding: 7px; 
   }
   
   .card-title {
@@ -221,10 +221,11 @@
 
 
   .svg-divider {
-    margin-top: -38px;
+    margin-top: -44px;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    margin-bottom: -48px;
 }
 
 .svg-divider svg {
@@ -235,13 +236,10 @@
 
 .contact-section {
     position: relative;
-    background-color: #000; /* Color de fondo de la sección */
-    padding-top: 0; /* Elimina padding para que el SVG se alinee bien */
-    margin-top: -10px; /* Alinea el svg más de cerca al contenido */
+    background-color: #000; 
+    padding-top: 0; 
+    margin-top: -10px; 
 }
-
-
-
 
 
 
