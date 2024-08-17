@@ -73,27 +73,33 @@
         </div>
     </section>
 
+
+
+
     <section id="productos" class="container-fluid seccion4 py-5">
         <div class="container text-center">
             <h2 class="tituloSeccion4" tabindex="21">Productos utilizados</h2>
             <div class="row">
+                <!-- Producto 1 -->
                 <div class="col-lg-4 col-md-6 col-sm-12 pb-4">
                     <div class="producto-item">
-                        <img src="img/endurance.webp" class="img-fluid" alt="Gold C. Endurance High Gloss" tabindex="28">
+                        <img src="img/endurance.webp" class="img-fluid" alt="Gold C. Endurance High Gloss" tabindex="28" data-bs-toggle="modal" data-bs-target="#productModal1">
                         <h5 class="mt-3" tabindex="29">Gold C. Endurance High Gloss</h5>
                         <p tabindex="30">Abrillantadores para Llantas, Cuidado Automotriz</p>
                     </div>
                 </div>
+                <!-- Producto 2 -->
                 <div class="col-lg-4 col-md-6 col-sm-12 pb-4">
                     <div class="producto-item">
-                        <img src="img/detailer.webp" class="img-fluid" alt="Gold Class Detailer" tabindex="28">
+                        <img src="img/detailer.webp" class="img-fluid" alt="Gold Class Detailer" tabindex="28" data-bs-toggle="modal" data-bs-target="#productModal2">
                         <h5 class="mt-3" tabindex="29">Gold Class Detailer</h5>
                         <p tabindex="30">Cuidado Automotriz, Detalladores de Pintura</p>
                     </div>
                 </div>
+                <!-- Producto 3 -->
                 <div class="col-lg-4 col-md-6 col-sm-12 pb-4">
                     <div class="producto-item">
-                        <img src="img/shampoo.webp" class="img-fluid" alt="Gold C. Car Wash Shampoo & Conditioner" tabindex="28">
+                        <img src="img/shampoo.webp" class="img-fluid" alt="Gold C. Car Wash Shampoo & Conditioner" tabindex="28" data-bs-toggle="modal" data-bs-target="#productModal3">
                         <h5 class="mt-3" tabindex="29">Gold C. Car Wash Shampoo & Conditioner</h5>
                         <p tabindex="30">Cuidado Automotriz, Shampoo</p>
                     </div>
@@ -102,7 +108,71 @@
         </div>
     </section>
     
-
+    <!-- Modal para Producto 1 -->
+    <div class="modal fade" id="productModal1" tabindex="-1" aria-labelledby="productModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalLabel1">Gold C. Endurance High Gloss</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/endurance.webp" class="img-fluid" alt="Gold C. Endurance High Gloss">
+                    <p class="mt-3">Aplicar siempre en llantas limpias y secas, para asegurar la mayor durabilidad y mejor acabado.
+                        En llantas con pocos dibujos se puede esparcir con una esponja, y en llantas con mucho relieve aconsejamos esparcir con un cepillo de cerdas suaves.
+                        Siempre dejar secar al menos 10 minutos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para Producto 2 -->
+    <div class="modal fade" id="productModal2" tabindex="-1" aria-labelledby="productModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalLabel2">Gold Class Detailer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/detailer.webp" class="img-fluid" alt="Gold Class Detailer">
+                    <p class="mt-3">1-Aplicar sobre superficies limpias o levemente sucias.
+                        <br>
+                        2-Atomizar sobre la pintura directamente y con un paño de microfibra esparcir.
+                        <br>
+                        3-Voltear el paño y remover residuos. No saturar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para Producto 3 -->
+    <div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalLabel3">Gold C. Car Wash Shampoo & Conditioner</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/shampoo.webp" class="img-fluid" alt="Gold C. Car Wash Shampoo & Conditioner">
+                    <p class="mt-3">Lavar siempre el vehiculo a la sombra y con superficie fresca.
+                        <br>
+                        1- diluir una onza de shampoo (3 tapas) por cada galón de agua.
+                        <br>
+                        2- mojar totalmente el vehículo para arrastrar parte de la suciedad suelta.
+                        <br>
+                        3- con un guante o esponja tomar shampoo de la cubeta y frotar suavemente empezando en las partes altas.
+                        <br>
+                        4- enjuagar el guante con agua limpia y repetir el punto #3 por toda la carrocería.
+                        <br>
+                        5- Usar un segundo guante para las partes bajas y normalmente más sucias.
+                        <br>
+                        6- secar con una toalla de microfibra especial.</p>
+                </div>
+            </div>
+        </div>
+    </div>
     
 
    
