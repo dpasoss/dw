@@ -76,9 +76,8 @@ body {
 
 .gallery-section {
     width: 100%; 
-    max-width: 2000px;
     margin: 0 auto; 
-    padding: 20px 0; 
+    padding: 60px 0; 
 }
 
 .carousel-inner {
@@ -86,7 +85,7 @@ body {
 }
 
 .carousel-item img {
-    max-height: 500px; 
+    max-height: 660px; 
     object-fit: cover; 
 }
 

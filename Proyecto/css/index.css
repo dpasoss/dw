@@ -218,6 +218,35 @@
 
 
 
+
+
+  .svg-divider {
+    margin-top: -38px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.svg-divider svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.contact-section {
+    position: relative;
+    background-color: #000; /* Color de fondo de la sección */
+    padding-top: 0; /* Elimina padding para que el SVG se alinee bien */
+    margin-top: -10px; /* Alinea el svg más de cerca al contenido */
+}
+
+
+
+
+
+
+
+
   footer h5 {
     font-size: 1.2rem;
     margin-bottom: 15px;
